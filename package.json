@@ -1,0 +1,46 @@
+{
+  "name": "Nof-Node_Framework",
+  "description": "Node based stack",
+  "version": "0.0.1",
+  "private": true,
+  "author" : "Thermatix <mbeckerwork@gmail.com>",
+  "contributors" : [],
+  "bin" : {
+  	"http-server" : "./bin/server"
+  },
+  "scripts" : {
+  	"start" : "node ./index",
+  	"test" : "echo \"Error: no test specified\" && exit 1",
+  	"predeploy" : "echo \"this will run before deploying the app\" && exit 1",
+  	"postdeploy" : "echo \"this will run after deploying the app\" && exit 1"
+  },
+  "main": "./index",
+  "repository" : {
+  	"type" : "git",
+  	"url" : "https://github.com/Thermatix/NoF"
+  },
+  "keywords" : [
+  "framework",
+  "full-stack"
+  ],
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "logfmt": "~1.1.2",
+    "express": "~3.5.1",
+    "mongodb": "~1.4.0",
+    "monk": "~0.8.1",
+    "mongoose": "~3.8.8",
+    "colors" : "*",
+    "ejs" : "*"
+  },
+  "engines" : {
+  		"node" : "*"
+  }
+
+}
+
+
+
+
+
