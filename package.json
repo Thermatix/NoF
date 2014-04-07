@@ -32,8 +32,12 @@
     "monk": "~0.8.1",
     "mongoose": "~3.8.8",
     "colors" : "*",
+    "jake": "latest",
     "ejs" : "*"
   },
+  "bundledDependencies": [
+  	"colors"
+  ],
   "engines" : {
   		"node" : "*"
   }

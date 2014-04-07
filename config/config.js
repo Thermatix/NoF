@@ -1,2 +1,3 @@
 //database settings
-exports.database = {route : 'mongodb://localhost/' + app.details.name}
+var app = module.parent.app
+exports.database = {route : ('mongodb://localhost/' + app.details.name) }
